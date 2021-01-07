@@ -1,4 +1,4 @@
-![DailyJournalLogo](./images/Cimages/CodingBootcampDailyJournal.png)
+![DailyJournalLogo](./images/CodingBootcampDailyJournal.png)
 #Daily Journal
 
 ![DailyJournalWireframe](./images/owl-40028_640.png)
