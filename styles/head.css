@@ -1,7 +1,11 @@
 .navBar {
-    font-size:36px;
+    font-size:26px;
     color: #000;
     font-weight:800;
+    max-width: 100%;
+    height: auto;
+    
+    
 }
 .navBar:hover{
     color:#f00;
@@ -12,7 +16,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: #6888BE;
 }
 .navMinis ul {
     display: inline;
