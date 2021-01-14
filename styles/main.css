@@ -45,3 +45,11 @@ p:first-letter{
 	color:#f00;
 	font-size:300%;
 }
+
+/* .mainLeftContainer {
+	display: flex;
+	flex-basis: 100%;
+} */
+.leftContainer {
+	display: flex;
+}
