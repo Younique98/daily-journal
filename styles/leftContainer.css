@@ -2,14 +2,14 @@ em {
     color:teal;
 }
 
-/* .topThreeThingsTo__Do {
+.topThreeThingsTo__Do {
     width:100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 4px;
-} */
+}
 /* .topThreeThingsOne {
     width:100%;
     padding: 12px 20px;
@@ -46,3 +46,15 @@ em {
     border-radius: 4px;
     color:gray
 }
+
+
+.assignmentsTo_Finish {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
