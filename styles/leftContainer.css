@@ -44,7 +44,9 @@ em {
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 4px;
-    color:gray
+    color:black;
+    font-size: 16px;
+    
 }
 
 
