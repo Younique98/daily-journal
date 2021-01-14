@@ -83,8 +83,8 @@
             <section class="rightContainer">
                 
                 <div class=" dateField">
-                    <label for="start">Start date:</label>
-            <div class="todayDate">
+                    
+            <div class="todayDate"><label for="start">Start date:</label>
             <input class="date" type="date" id="start" name="trip-start"
              value="2021-01-01" min="2021-01-01" max="2050-12-31">
                 </div>
@@ -97,12 +97,40 @@
                           </div>   
                 </div>
                 <div class=" brainDump">
+                    <div class="endOfDay__BrainDump">  
+                        
+                        <label for="brainTease"> Do you have a lot on your mind today?</label><div class="editBrainBox" contenteditable="true">
+                              <em>Dump those thoughts<b>here</b></em> today 
+                          </div>   
                     
-                </div>
-                <div class=" mood">
+                </div></div>
+                <div class="howDoYou__Feel">
+                <div class="mood">
+                    <div class =”face__Images” >
+                        <div class="faceIcons">
+                        
+                        <button class ="smiley__face">Happy &#128513</button></div>
+                        <div class="faceIcons">
+                        
+                        <button class = "frown__face">Mad &#128544</button></div>
+                        <div class="faceIcons">
+                        
+                        <button class = “sad__face”>Sad &#128543</button></div>
+                        <div class="faceIcons">
+                        
+                        <button class =”confused__face”>Confused &#128533</button></div>
+                        </div>
+                    </div>
+                        
+                        
                     
-                </div>
+                
+            </div>
+                <div class="bottomButtons">
                 <div class=" buttonField">
+                    <button class="button" type="button">Edit</button>
+                    <button class="button" type="button">Save</button>
+                    <button class="button" type="button">Delete</button>
                     
                 </div>
             </section>
