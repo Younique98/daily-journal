@@ -1,0 +1,41 @@
+.navBar {
+    font-size:36px;
+    color: #000;
+    font-weight:800;
+}
+.navBar:hover{
+    color:#f00;
+    transition: all 0.3s ease;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.navMinis ul {
+    display: inline;
+}
+.navBar li {
+    float: left;
+}
+
+.navBar a {
+    display: block;
+    padding: 8px;
+   
+}
+
+/* .navBar ul {
+    background-color: #333;
+} */
+
+.navBar li a {
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
