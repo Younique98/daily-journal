@@ -1,3 +1,11 @@
+@import "./footer.css";
+@import "./head.css";
+@import "./leftContainer.css";
+@import "./rightContainer.css";
+
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
 /*Typography
@@ -16,4 +24,24 @@ textarea {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+}
+
+a:link {color: blue;}
+a:visited {color: purple;}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+.navBar img{
+	max-width:100%;
+	height:auto;
+}
+
+p:first-letter{
+	display:block;
+	float:left;
+	margin:3px;
+	color:#f00;
+	font-size:300%;
 }
