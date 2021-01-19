@@ -1,16 +1,18 @@
 .navBar {
-    font-size:26px;
+    font-size: 26px;
     color: #000;
-    font-weight:800;
+    font-weight: 800;
     max-width: 100%;
     height: auto;
-    
-    
+
+
 }
-.navBar:hover{
-    color:#f00;
+
+.navBar:hover {
+    color: #f00;
     transition: all 0.3s ease;
 }
+
 .navBar ul {
     list-style-type: none;
     margin: 0;
@@ -18,9 +20,11 @@
     overflow: hidden;
     background-color: #6888BE;
 }
+
 .navMinis ul {
     display: inline;
 }
+
 .navBar li {
     float: left;
 }
@@ -28,7 +32,7 @@
 .navBar a {
     display: block;
     padding: 8px;
-   
+
 }
 
 /* .navBar ul {
@@ -42,4 +46,3 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-

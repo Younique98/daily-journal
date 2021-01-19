@@ -17,27 +17,38 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 18px;
-	line-height: 1.5;
+    color: #404040;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
 }
 
-a:link {color: blue;}
-a:visited {color: purple;}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
 
 img {
-	max-width:100%;
-	height:auto;
+    max-width: 100%;
+    height: auto;
 }
-.navBar img{
-	max-width:100%;
-	height:auto;
+
+.navBar img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* p:first-letter{
@@ -53,39 +64,41 @@ img {
 	flex-basis: 100%;
 } */
 .leftContainer {
-	display: flex;
+    display: flex;
 }
+
 footer {
-	display:flex;
-	border: 2px solid black;
+    display: flex;
+    border: 2px solid black;
 }
+
 .github {
-	
-	margin: auto;
-        /* float: right; */
-        width:100%;
-        padding: 12px 40px;
-        /* margin: 8px 0; */
-        box-sizing: border-box;
-        /* border: 2px solid black; */
-        border-radius: 4px;
-		text-align: center;
-		font-size: 16px;
+
+    margin: auto;
+    /* float: right; */
+    width: 100%;
+    padding: 12px 40px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
 }
+
 .copyright {
-	margin: auto;
-        /* float: right; */
-        width:100%;
-        padding: 12px 40px;
-        /* margin: 8px 0; */
-        box-sizing: border-box;
-        /* border: 2px solid black; */
-        border-radius: 4px;
-		text-align: center;
-		font-size: 16px;
+    margin: auto;
+    /* float: right; */
+    width: 100%;
+    padding: 12px 40px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
 }
 
- body {
-	 background-color: #99afd7;
-} 
-
+body {
+    background-color: #99afd7;
+}
